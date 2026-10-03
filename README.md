@@ -43,7 +43,7 @@ Walk-forward backtest, classical vs. LSTM-forecasted returns:
 |-----------|---------------|--------------------|--------------|--------------|
 | Classical (Historical Mean) | 12.69% | 22.69% | 0.3389 |-0.145 |
 | LSTM Forecast | 22.24% | 23.67% | 0.7286 | -0.2031 |
-| GRU Forecast | |11.33% | 16.94% | 0.374 | -0.1483 |
+| GRU Forecast | 11.33% | 16.94% | 0.374 | -0.1483 |
 
 
 The LSTM-forecasted approach modestly outperformed the classical baseline and GRU-forecast on a risk-adjusted basis,meaning the improvement came from better-timed return forecasts rather than a different risk profile.
